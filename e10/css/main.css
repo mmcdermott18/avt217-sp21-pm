@@ -17,3 +17,28 @@ body {
   width: 800px;
   display: flow-root;
 }
+#column header, #column footer, #column nav, #column .col {
+  background: black;
+  float: left;
+}
+#column header, #column footer, #column nav {
+  width: 900px;
+  margin: 0 calc(50vw - 450px) 25px;
+  clear: both;
+}
+#column header, #column footer {
+  height: 100px;
+}
+#column nav {
+  height: 50px;
+}
+#column .col {
+  width: calc(300px - (50px / 3));
+  height: 600px;
+  float: left;
+  margin: 0 0 25px 25px
+}
+#column .col:first-of-type {
+  margin-left: calc(50vw - 450px);
+  clear: left;
+}
