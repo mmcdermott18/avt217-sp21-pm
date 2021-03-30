@@ -1,6 +1,10 @@
 body {
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
+  margin: 0;
 }
+
+/* checkerboard */
+
 .black {
   width: 100px;
   height: 100px;
@@ -17,28 +21,40 @@ body {
   width: 800px;
   display: flow-root;
 }
-#column header, #column footer, #column nav, #column .col {
-  background: black;
-  float: left;
+
+/* column grid */
+
+#columns {
+  width: 50vw;
+  margin: 100px auto 0;
 }
-#column header, #column footer, #column nav {
-  width: 900px;
-  margin: 0 calc(50vw - 450px) 25px;
-  clear: both;
+header, nav, main, footer {
+  width: 100%;
 }
-#column header, #column footer {
+header, nav, footer, .column {
+  background-color: rebeccapurple;
+}
+header {
   height: 100px;
+  margin-bottom: 25px;
 }
-#column nav {
-  height: 50px;
+nav {
+  height: 25px;
+  margin-bottom: 25px;
 }
-#column .col {
-  width: calc(300px - (50px / 3));
-  height: 600px;
+main {
+  display: flow-root;
+}
+.column {
+  width: calc((100% - 50px) / 3);
+  height: 400px;
   float: left;
-  margin: 0 0 25px 25px
 }
-#column .col:first-of-type {
-  margin-left: calc(50vw - 450px);
-  clear: left;
+.margins {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+footer {
+  height: 100px;
+  margin-top: 25px;
 }
