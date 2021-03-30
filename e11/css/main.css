@@ -6,9 +6,11 @@ body {
 }
 .ground, .hand-hole {
   background-color: lightgrey;
+  z-index: -99;
 }
 .sky {
   background-color: #222222;
+  z-index: -99;
 }
 .ground {
   position: absolute;
