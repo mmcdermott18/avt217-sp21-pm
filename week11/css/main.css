@@ -19,6 +19,23 @@ header {
 nav {
   float: right;
 }
+main {
+  width: 60vw;
+  margin: 25px auto;
+}
+.row {
+  width: 100%;
+  display: flow-root;
+  margin-top: 25px;
+}
+.project {
+  width: calc(33.33333% - (50px / 3));
+  float: left;
+}
+.margins {
+  margin-left: 25px;
+  margin-right: 25px;
+}
 /* type styles */
 .title p {
   margin: 0;
@@ -33,4 +50,9 @@ ul {
 li {
   float: left;
   margin: 0 15px;
+}
+
+/* img styles */
+img {
+  width: 100%;
 }
