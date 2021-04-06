@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: lightgrey;
+}
+
+/* layout styles */
+header {
+  width: 100%;
+  background-color: white;
+  padding: 25px;
+  display: flow-root;
+}
+.title {
+  float: left;
+}
+nav {
+  float: right;
+}
+/* type styles */
+.title p {
+  margin: 0;
+}
+
+/* list styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin: 0 15px;
+}
