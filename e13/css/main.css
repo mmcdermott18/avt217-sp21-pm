@@ -32,7 +32,7 @@ body {
 .martian {
   width: 50%;
   height: 75%;
-  background-color: limegreen;
+  background-color: yellowgreen;
   border-radius: 50%;
   position: absolute;
   top: 40%;
@@ -41,7 +41,7 @@ body {
 .antenna-l, .antenna-r {
   width: 10%;
   height: 30%;
-  background-color: limegreen;
+  background-color: yellowgreen;
   position: absolute;
 }
 .antenna-l {
@@ -57,7 +57,7 @@ body {
 .antenna-cap {
   width: 150%;
   height: 50%;
-  background-color: limegreen;
+  background-color: yellowgreen;
   border-radius: 50%;
   position: absolute;
   top: -35%;
