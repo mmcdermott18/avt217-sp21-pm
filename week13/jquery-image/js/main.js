@@ -17,13 +17,13 @@ function randomImage1() {
 	var textArray = ["click", "press", "new", "go"];
 	var randomNumber = Math.floor(Math.random() * imgArray.length);
 	var randomText = Math.floor(Math.random() * textArray.length);
-	// console.log(randomNumber);
-	console.log(randomText);
+	console.log(randomNumber);
+	// console.log(randomText);
 	var image = imgArray[randomNumber];
 	var text = textArray[randomText];
-	// console.log("imgArray[" + randomNumber + "]");
-	// console.log(image);
-	console.log(text);
+	console.log("imgArray[" + randomNumber + "]");
+	console.log(image);
+	// console.log(text);
 	$('#puffin').attr('src', image);
 	$('#new p').text(text);
 	$('#new').click(function() {
@@ -34,7 +34,6 @@ function randomImage2() {
 	var randomNumber = Math.floor(Math.random() * 8) + 1;
 	console.log(randomNumber);
 	var image = "img/Puffins-" + randomNumber + ".jpg";
-	console.log(randomNumber);
 	console.log(image);
 	$('#puffin').attr('src', image);
 	$('#new').click(function() {
