@@ -8,6 +8,7 @@ function colorGuess() {
 	var randomNumber = Math.floor(Math.random() * colorArray.length);
 	var stripped = colorArray[randomNumber].toLowerCase();
 	$('body').css('background-color', colorArray[randomNumber]);
+	console.log(stripped);
 	$('#submit').click(function() {
 		var input = $('input').val();
 		var guess = input.toLowerCase();
